@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap");
+
+.App {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: #bfdbfe;
+  font-family: "Merriweather", serif;
+  color: #374151;
+}
+
+.App .navigation {
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.App .navigation .input-box {
+  padding: 1rem 2rem;
+  margin: 1rem;
+}
+
+.App .navigation .output-box {
+  padding: 1rem 1rem;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
